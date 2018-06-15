@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/subjectiveLearning"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".recyclerCardlayout.SubjectiveLearningFarg">
+
+    <!-- TODO: Update blank fragment layout -->
+    
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <WebView
+        android:id="@+id/webView_DS"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="3dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+    </WebView>
+
+</FrameLayout>

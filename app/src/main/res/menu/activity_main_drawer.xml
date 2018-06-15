@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ds"
+            android:icon="@drawable/ic_folder_black_24dp"
+            android:title="Data structure" />
+        <item
+            android:id="@+id/nav_db"
+            android:icon="@drawable/ic_folder_black_24dp"
+            android:title="Database" />
+        <item
+            android:id="@+id/nav_os"
+            android:icon="@drawable/ic_folder_black_24dp"
+            android:title="Operating System" />
+        <item
+            android:id="@+id/nav_se"
+            android:icon="@drawable/ic_folder_black_24dp"
+            android:title="Software Engineering" />
+    </group>
+
+    <item android:title="Programing Language">
+        <menu>
+            <item
+                android:id="@+id/nav_java"
+                android:icon="@drawable/ic_folder_black_24dp"
+                android:title="Java" />
+            <item
+                android:id="@+id/nav_c"
+                android:icon="@drawable/ic_folder_black_24dp"
+                android:title="C" />
+        </menu>
+    </item>
+
+</menu>
